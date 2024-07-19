@@ -23,7 +23,6 @@ def count_occurrences(lst, item):
     for i in lst:
         if i == item:
             count += 1
-    return count
 
 
 
