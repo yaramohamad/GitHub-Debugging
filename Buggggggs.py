@@ -3,7 +3,7 @@ a, b, n = 0, 1, 10
 fibonacci = []
 for i in range(n) 
     fibonacci.append(a)
-    a, b = b, a + b
+    a, b = b, a 
 pritn(f"Fibbonacci sequence of {n} numbers: {fibonacci}")  
 
 # Find minimum and maximum in a list
@@ -30,7 +30,7 @@ print(f"Sum: {sum}, Difference: {difference}, Product: {product}, Quotient: {quo
 # Prime number check
 num = 29
 is_prime = True
-for i in range(2, num//2):
+for i in range(2, num):
     if (num % i) == 0:
         is_prime = False
         break
@@ -66,7 +66,7 @@ print(f"Number of vowels in the string: {vowel_count}")
 word = "racecar"
 is_palindrome = True
 for i in range(len(word) // 2):
-    if word[i] != word[-i - 1]:  
+    if word[i] != word[i - 1]:  
         is_palindrome = False
         break
 if is_palindrome:
