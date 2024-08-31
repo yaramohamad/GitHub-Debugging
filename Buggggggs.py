@@ -4,7 +4,7 @@ fibonacci = []
 for i in range(n) 
     fibonacci.append(a)
     a, b = b, a + b
-pritn(f"Fibbonacci sequence of {n} numbers: {fibonacci}")  
+print(f"Fibbonacci sequence of {n} numbers: {fibonacci}")  
 
 # Find minimum and maximum in a list
 numbers = [3, 5, 1, 10, 2, 7, 6, 4, 8, 9]
