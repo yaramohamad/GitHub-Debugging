@@ -79,7 +79,7 @@ numbers = [1, 2, -9, -1 , 3, 4, -7, 5]
 sum_elements = 0
 for num in number: 
     if not num > 0:
-    sum_elements += num
+     sum_elements += num
 print(f"Sum of elements: {sum_elements}")
 
 # Factorial calculation
